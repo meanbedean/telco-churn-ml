@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "features": [
+      "tenure",
+      "MonthlyCharges",
+      "TotalCharges",
+      "gender",
+      "SeniorCitizen",
+      "Partner",
+      "Dependents",
+      "PhoneService",
+      "MultipleLines",
+      "InternetService",
+      "OnlineSecurity",
+      "OnlineBackup",
+      "DeviceProtection",
+      "TechSupport",
+      "StreamingTV",
+      "StreamingMovies",
+      "Contract",
+      "PaperlessBilling",
+      "PaymentMethod"
+    ],
+    "target": "Churn",
+    "positive_label": "Yes",
+    "train_rows": 5634,
+    "test_rows": 1409,
+    "seed": 42
+  },
+  "results": {
+    "Logistic Regression": {
+      "Accuracy": 0.7381,
+      "AUC": 0.8415,
+      "Precision": 0.5043,
+      "Recall": 0.7834,
+      "F1": 0.6136,
+      "MCC": 0.4531
+    },
+    "Decision Tree": {
+      "Accuracy": 0.7395,
+      "AUC": 0.8336,
+      "Precision": 0.506,
+      "Recall": 0.7914,
+      "F1": 0.6173,
+      "MCC": 0.459
+    },
+    "KNN": {
+      "Accuracy": 0.775,
+      "AUC": 0.8088,
+      "Precision": 0.5817,
+      "Recall": 0.5428,
+      "F1": 0.5615,
+      "MCC": 0.4109
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.6955,
+      "AUC": 0.8075,
+      "Precision": 0.4597,
+      "Recall": 0.8396,
+      "F1": 0.5941,
+      "MCC": 0.4268
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.7452,
+      "AUC": 0.8213,
+      "Precision": 0.5133,
+      "Recall": 0.7727,
+      "F1": 0.6169,
+      "MCC": 0.458
+    }
+  }
+}
