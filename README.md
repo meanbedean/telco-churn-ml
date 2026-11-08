@@ -2,7 +2,7 @@
 
 ML Assignment 2 · M.Tech (AIML) · BITS Pilani WILP
 
-**Live app:** `<paste your Streamlit Community Cloud URL here>`
+**Live app:** `https://telco-churn-2026ak05450.streamlit.app/`
 
 ---
 
@@ -40,7 +40,7 @@ The task is a **binary classification** problem: given a customer's account, dem
 
 ## c. GitHub repository link
 
-`<paste your GitHub repository URL here>`
+`https://github.com/meanbedean/telco-churn-ml`
 
 ```
 telco-churn-ml/
@@ -110,7 +110,7 @@ Precision, Recall and F1 are reported for the positive class (`Churn = Yes`).
 
 The app loads the saved `.joblib` pipelines and only runs inference on the uploaded file; it never retrains.
 
-The uploaded CSV must contain the 19 feature columns listed above and the `Churn` column (Yes/No or 1/0). Column order does not matter.
+The uploaded CSV must contain the 19 feature columns listed above and the `Churn` column (Yes/No or 1/0).
 
 ## How to run locally
 
