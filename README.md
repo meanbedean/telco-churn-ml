@@ -1,6 +1,6 @@
 # ChurnScope — Telco Customer Churn Classification
 
-ML Assignment 2 · M.Tech (AIML) · BITS Pilani WILP
+ML Assignment 2 · M.Tech (AIML) · BITS Pilani WILP - KAUSTAVA GHOSH (2026AK05450)
 
 **Live app:** `https://telco-churn-2026ak05450.streamlit.app/`
 
